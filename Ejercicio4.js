@@ -7,7 +7,7 @@ const mainCharacters = [
   "Anakin",
   "Obi-Wan",
 ];
-function findArrayIndex(array, text) {
+const findArrayIndex=(array, text)=> {
     let encontrado = false;
     let posicion = undefined;
     for (let i = 0; i < array.length; i++) {
@@ -30,7 +30,7 @@ console.log(findArrayIndex(mainCharacters,'Obi-Wan'));
 
 
 //---------------------------------------
-function removeArrayIndex(array, text) {
+const removeArrayIndex=(array, text)=> {
     let encontrado = false;
     for (let i = 0; i < array.length; i++) {
         if(array[i].toLowerCase().includes(text.toLowerCase())){

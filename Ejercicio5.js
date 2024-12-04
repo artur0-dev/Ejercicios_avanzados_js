@@ -1,4 +1,4 @@
-function rollDice(nCaras){
+const rollDice=(nCaras)=> {
     return  parseInt(Math.random()*nCaras)+1;
 }
 console.log(rollDice(5));

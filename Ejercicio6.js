@@ -4,7 +4,7 @@ const fantasticFour = [
     "La mujer invisible",
     "La cosa",
   ];
-function swap(fantasticFour, indice1,indice2){
+  const swap=(fantasticFour, indice1,indice2)=> {
     if(indice1 < 0 || indice2 < 0 || indice1 >= fantasticFour.length || indice2 >= fantasticFour.length){
         return 'fuera de rango'
     }else{
